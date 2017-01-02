@@ -1,14 +1,19 @@
 body {
   font-family: 'Oxygen', sans-serif;
-  background: red;
+  background: #E9E9E9;
 }
 
 h1 {
-  background: green;
   text-align: center;
   font-size: 1.5rem;
   font-weight: bold;
-  height: 100px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 25px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #3299BB;
 }
 
 img {
@@ -19,13 +24,21 @@ img {
 }
 
 #image {
-  background: blue;
   width: 100%;
   text-align: center;
 }
 
 #footer {
   max-width: 976px;
-  margin: 0 auto;
+  margin: 15px auto;
   text-align: center;
+}
+
+#footer p {
+  margin-top: 10px;
+}
+
+#footer .address {
+  margin-top: 30px;
+  line-height: 20px;
 }
